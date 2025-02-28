@@ -1,0 +1,4 @@
+feedparser
+python-telegram-bot
+schedule
+googletrans==4.0.0-rc1
