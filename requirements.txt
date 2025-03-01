@@ -2,6 +2,5 @@ feedparser
 python-telegram-bot
 schedule
 googletrans==4.0.0-rc1
-urllib3==2.0.7
+urllib3==1.26.16
 requests
-urllib3[secure]
