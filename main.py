@@ -9,7 +9,12 @@ TOKEN = "7738677308:AAFRGuARwQq8DCs7AksRw8UB3jPHp-39xE0"
 CHAT_ID = 6754357775  
 
 # RSS-лента New York Times
-RSS_URL = "http://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml"
+RSS_URLS = [
+    "http://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/",
+    "https://cointelegraph.com/rss",
+    "https://decrypt.co/feed"
+]
 
 # Создание бота
 bot = Bot(token=TOKEN)
